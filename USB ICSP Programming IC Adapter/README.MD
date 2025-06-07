@@ -14,7 +14,7 @@ Features:
 
 How It Works?
 
-What Is Include?
+What Is Included?
 
 When will it be available?
 
