@@ -8,6 +8,7 @@ Features:
 -	SPI protocol is supported via the six pin ICSP header “J3” or using the DIP Select adapters (Included) to program the 40 to 8 pin DIP ICs. 
 - Bricked AVRs that use SPI as a programming interface can be saved using the AVR Unbrickme Adapter (more information to follow in due course).
 -	If you need a serial USB adapter to monitor your serial lines or program your bootloader flashed AVR. Then the serial header “J1” is available with the necessary connections you need to do this.
+- Actvity LEDS to indicate programming, serial communication and power supply rails. 
 -	3.3V and 5V supplies are selectable through the “VCC Select” jumper. 500mA Max Current Output for 3.3V and 1A for 5V.
 - The USB C connector requires a minimum of 5V and 2A. (It can operate on lower currents. But only if your are using it as programming/debugging adapter and not having any other peripherals drawing power)
 -	To save you time and memory 😊. The jumper configurations to do each of these functions are printed on the back of the development board for your reference. A QR Code is also available to access additional information on this dev board.
