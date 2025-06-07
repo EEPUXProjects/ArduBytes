@@ -12,10 +12,12 @@ Features:
 - The USB C connector requires a minimum of 5V and 2A. (It can operate on lower currents. But only if your are using it as programming/debugging adapter and not having any other peripherals drawing power)
 -	To save you time and memory 😊. The jumper configurations to do each of these functions are printed on the back of the development board for your reference. A QR Code is also available to access additional information on this dev board.
 
-How It Works:
+How It Works?
 
-What Is Include:
+What Is Include?
 
 When will it be available?
 
 More information coming soon !!! 
+
+Till the nexst time goodbyeeeee 
