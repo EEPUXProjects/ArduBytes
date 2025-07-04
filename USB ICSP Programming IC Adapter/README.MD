@@ -6,7 +6,6 @@ The Ardubytes USB ICSP is a development board and programmer sandwiched into one
 Features:
 -	UPDI devices can be programmed via the “J2” header. Based on your need they can be configured to work with a high/low voltage reset pulse. As well as being able to isolate the UPDI/Reset pin into two separate entities for those select AVRs that require this function.
 -	SPI protocol is supported via the six pin ICSP header “J3” or using the DIP Select adapters (Included) to program the 40 to 8 pin DIP ICs. 
-- Bricked AVRs that use SPI as a programming interface can be saved using the AVR Unbrickme Adapter (more information to follow in due course).
 -	If you need a serial USB adapter to monitor your serial lines or program your bootloader flashed AVR. Then the serial header “J1” is available with the necessary connections you need to do this.
 - Actvity LEDS to indicate programming, serial communication and power supply rails. 
 -	3.3V and 5V supplies are selectable through the “VCC Select” jumper. 500mA Max Current Output for 3.3V and 1A for 5V.
