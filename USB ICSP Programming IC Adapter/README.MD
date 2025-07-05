@@ -28,7 +28,7 @@ AVR SPI ICSP (Header J3):
 2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
 3. If using IC socket. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the correct poisition on the module aswell. Use the diagram below to confirm correct adapter. Otherwise connect the signals from header J3 to your target board. 
 
-![AVR SPI Adapter Modes](https://github.com/EEPUXProjects/ArduBytes/blob/main/USB%20ICSP%20Programming%20IC%20Adapter/AVR%20SPI%20Adapter%20Modes.png)
+![AVR SPI Adapter Modes](https://github.com/EEPUXProjects/ArduBytes/blob/main/USB%20ICSP%20Programming%20IC%20Adapter/Images/AVR%20SPI%20Adapter%20Modes.png)
 
 EXT USART Debugger (Header J1):
 1. Set jumpers on header J4 to position 2 and 3.
