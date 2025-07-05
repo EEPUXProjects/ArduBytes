@@ -15,13 +15,24 @@ Features:
 How It Works?
 
 UPDI Programming (Header J2):
-1. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
-2. Select whether you want high voltage or low voltage UPDI programming via the UPDI-RST-VOLT jumper. Select LV for the selected VCC_SLCT voltage or HV for 12V.
-3. Select if you want the reset signal to be combined with the UPDI signal via the UPDI-RST-ISO jumper. Enable position is to isolate the signals and disable is to combine them.
+1. Set jumpers on header J4 to position 1.
+2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
+3. Select whether you want high voltage or low voltage UPDI programming via the UPDI-RST-VOLT jumper. Select LV for the selected VCC_SLCT voltage or HV for 12V.
+4. Select if you want the reset signal to be combined with the UPDI signal via the UPDI-RST-ISO jumper. Enable position is to isolate the signals and disable is to combine them.
 5. Using the megaTinyCore board extension. Choose Serial UPDI -230400 as the dedicated programming device.
 6. To take advantage of the high voltage mode. You must remove the hashtag before the UPDI/RESET PIN Configuration Lines, in the boards.txt file.
 7. Program to your hearts content :)
 
+AVR SPI ICSP (Header J3):
+1. Set jumpers on header J4 to position 2.
+2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
+3. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the same poisition. Use the diagram below to confirm correct adapter. 
+
+
+
+EXT USART Debugger (Header J1):
+1. Set jumpers on header J4 to position 2 and 3.
+2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
 
 
 
