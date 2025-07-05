@@ -26,7 +26,7 @@ UPDI Programming (Header J2):
 AVR SPI ICSP (Header J3):
 1. Set jumpers on header J4 to position 2.
 2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
-3. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the same poisition. Use the diagram below to confirm correct adapter. 
+3. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the correct poisition on the module aswe. Use the diagram below to confirm correct adapter. 
 
 ![AVR SPI Adapter Modes](https://github.com/EEPUXProjects/ArduBytes/blob/main/USB%20ICSP%20Programming%20IC%20Adapter/AVR%20SPI%20Adapter%20Modes.png)
 
