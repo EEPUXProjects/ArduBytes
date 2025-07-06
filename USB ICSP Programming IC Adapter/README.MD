@@ -32,6 +32,7 @@ AVR SPI ICSP (Header J3):
 3. If using IC socket. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the correct poisition on the module aswell. Use the first diagram below to confirm correct adapter. Otherwise connect the signals from header J3 to your target board. 
 
 AVR Adapter Modes
+
 ![AVR SPI Adapter Modes](https://github.com/EEPUXProjects/ArduBytes/blob/main/USB%20ICSP%20Programming%20IC%20Adapter/Images/AVR%20SPI%20Adapter%20Modes.png)
 
 Demo Configuration
