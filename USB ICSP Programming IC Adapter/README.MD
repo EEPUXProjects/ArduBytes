@@ -1,7 +1,8 @@
 ArduBytes USB ICSP Programming IC Adapter Development Board
 
-The Ardubytes USB ICSP is a development board and programmer sandwiched into one. It is designed to simplify the development stage and get you programming as soon as possible. Featuring dual SPI and UPDI programming protocols it can cater for developing a range of AVR projects. Supported by AVRDUDE for SPI and megaTinyCore for UPDI. The onboard dual 5V/3V3 supplies allow you to select the onboard voltage and the 44 pin "DIP EXT CONN" socket exposes every pin of the microcontroller, with some additional power pins to extend to your breadboard project. The 40 pin ZIF socket eases the AVRs installation with a simple lift and push of the lever and the IC is mechanically secured and electrically interfaced. In the accidental case of bricking your microcontroller via UPDI. e.g Wrong fuses. We have a built-in high voltage supply that can rescue your AVR in its time of need. All this being powered via 5V through the USB C connector.,
+!!!! picture of  board
 
+The Ardubytes USB ICSP is a development board and programmer sandwiched into one. It is designed to simplify the development stage and get you programming as soon as possible. Featuring dual SPI and UPDI programming protocols it can cater for developing a range of AVR projects. Supported by AVRDUDE for SPI and megaTinyCore for UPDI. The onboard dual 5V/3V3 supplies allow you to select the onboard voltage and the 44 pin "DIP EXT CONN" socket exposes every pin of the microcontroller, with some additional power pins to extend to your breadboard project. The 40 pin ZIF socket eases the AVRs installation with a simple lift and push of the lever and the IC is mechanically secured and electrically interfaced. In the accidental case of bricking your microcontroller via UPDI. e.g Wrong fuses. We have a built-in high voltage supply that can rescue your AVR in its time of need. All this being powered via 5V through the USB C connector.,
 
 Features:
 -	UPDI devices can be programmed via the “J2” header. Based on your need they can be configured to work with a high/low voltage reset pulse. As well as being able to isolate the UPDI/Reset pin into two separate entities for those select AVRs that require this function.
@@ -23,24 +24,32 @@ UPDI Programming (Header J2):
 6. To take advantage of the high voltage mode. You must remove the hashtag before the UPDI/RESET PIN Configuration Lines, in the boards.txt file.
 7. Program to your hearts content :)
 
+picture of setup
+
 AVR SPI ICSP (Header J3):
 1. Set jumpers on header J4 to position 2.
 2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
-3. If using IC socket. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the correct poisition on the module aswell. Use the diagram below to confirm correct adapter. Otherwise connect the signals from header J3 to your target board. 
+3. If using IC socket. Use the appropriate supplied PCB module to interface the AVR with the programmer. Make sure the switch is in the correct poisition on the module aswell. Use the first diagram below to confirm correct adapter. Otherwise connect the signals from header J3 to your target board. 
 
 ![AVR SPI Adapter Modes](https://github.com/EEPUXProjects/ArduBytes/blob/main/USB%20ICSP%20Programming%20IC%20Adapter/Images/AVR%20SPI%20Adapter%20Modes.png)
+
+picture of setup
 
 EXT USART Debugger (Header J1):
 1. Set jumpers on header J4 to position 2 and 3.
 2. Select your supply voltage via the VCC_SLCT selection jumper. You have the option of 5V or 3.3V.
 
-
+picture of setup
 
 
 What Is Included?
+picture of setup
+1x Programmer Board
+2x 40,8,14,28 and 20 pin SPI modules.
 
 When will it be available?
+It is Available on ebay. Through the link below,
 
-More information coming soon !!! 
+ 
 
 
