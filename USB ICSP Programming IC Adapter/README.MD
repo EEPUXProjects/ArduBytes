@@ -52,6 +52,6 @@ picture of setup
 When will it be available?
 It is Available on ebay. Through the link below,
 
- 
+ special thanks to
 
 
